@@ -1,6 +1,7 @@
 ### Usage
 
 npm install johnny-extend --save
+
 import extend from 'johnny-extend'
 
 ```javascript
