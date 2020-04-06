@@ -2,8 +2,9 @@
  * Created by johnny on 2017/12/25.
  */
 
-function extend(obj) {
-    let length = arguments.length;
+function extend(...args) {
+    let length = args.length;
+    let obj=args[0];
     obj = Object(obj);
     if (length < 2 || obj == null) return obj;
     for (let index = 1; index < length; index++) {
